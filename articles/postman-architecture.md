@@ -6,7 +6,9 @@ topics: [Postman, API]
 published: true
 ---
 
-ぼくのかんがえたさいきょうのPostmanかんきょうをまとめました
+[株式会社dott](https://thedott.io/)でバックエンドエンジニアをしているとみぎと申します
+
+今回は、プロジェクトでPostmanを使う中でさいきょうのPostmanかんきょうを作れたので、その内容をまとめました
 
 # TL;DR
 
