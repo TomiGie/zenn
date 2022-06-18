@@ -3,9 +3,8 @@ title: "ぼくのかんがえたさいきょうのPostmanかんきょう"
 emoji: "📮"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Postman, API]
-published: false
+published: true
 ---
-
 
 ぼくのかんがえたさいきょうのPostmanかんきょうをまとめました
 
