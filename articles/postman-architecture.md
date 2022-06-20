@@ -138,11 +138,7 @@ sysコレクションの設定
 #### Requestの設定
 
 リクエストのURLを以下のように変更する
-({{SERVICE_PATH}}とAPIのパスの間を{{SERVICE_PATH}}に置き換える)
-
-```
-{{SERVICE_PATH}}{{REQUEST_PATH}}/[APIのパス]
-```
+(`{{BASE_URL}}`と`APIのパス`の間を`{{SERVICE_PATH}}`に置き換える)
 
 ![](https://storage.googleapis.com/zenn-user-upload/f2f7921f6ca4-20220618.png)
 
