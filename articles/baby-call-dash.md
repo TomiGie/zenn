@@ -123,13 +123,12 @@ func main() {
 }
 
 func hello(event DashEvent) (MyResponse, error) {
-	url := "{SLACK_WEBHOOK_URL}"
-	notify(url, event.DeviceEvent.ButtonClicked.ClickType)
+	url := "INCOMING_WEBHOOK_URL"
+	SendSlackMessage(url, event.DeviceEvent.ButtonClicked.ClickType)
 	return MyResponse{Message: fmt.Sprintf("Hello %s!!", "event.Name")}, nil
 }
 
-
-func notify(url string, clickType string) error {
+func SendSlackMessage(url string, clickType string) error {
 
 	jstZone := time.FixedZone("Asia/Tokyo", 9*60*60)
 	jst := time.Now().UTC().In(jstZone)
@@ -185,7 +184,7 @@ func SendLine(message string) {
 		fmt.Println(err)
 		return
 	}
-	req.Header.Add("Authorization", "Bearer {LINE_TOKEN}")
+	req.Header.Add("Authorization", "Bearer {LINE_ACCESS_TOKEN}")
 	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
 
 	res, err := client.Do(req)
@@ -271,9 +270,6 @@ Slackのチャンネルの通知には[Incoming Webhooks](https://api.slack.com/
 5. 作成した関数に、2で書き出したhello.zipをアップロード
 
 ### 書き換え箇所
-
-```go:hello.go
-```
 
 #### Slack
 
