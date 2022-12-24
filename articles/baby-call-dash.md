@@ -26,7 +26,8 @@ published: true
 *Slackのメッセージ画面*
 
 ソースコードは以下にあります
-[GitHub - LaborPainDash](https://github.com/TomiGie/LaborPainDash)
+
+https://github.com/TomiGie/LaborPainDash
 
 :::message
 ## おすすめポイント
