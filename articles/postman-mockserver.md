@@ -3,7 +3,8 @@ title: "PostmanのMockServerを使ってみる"
 emoji: "🏗️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [postman, API]
-published: false
+published: true
+published_at: 2023-12-24 00:00 # 未来の日時を指定する
 ---
 
 この記事は、[全世界2,800万人以上の開発者に使われているAPIプラットフォームPostmanの記事を書こう by Postman Advent Calendar 2023](https://qiita.com/advent-calendar/2023/postman) のシリーズ2 24日目の記事です。
