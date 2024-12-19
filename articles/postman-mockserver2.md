@@ -3,7 +3,7 @@ title: "PostmanのモックサーバーにAPIキー認証をつけてプライ�
 emoji: "🔑"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["postman", "API", ]
-published: false
+published: true
 ---
 
 この記事は、[Postman Advent Calendar 2024](https://qiita.com/advent-calendar/2024/postman) 20日目の記事です。
